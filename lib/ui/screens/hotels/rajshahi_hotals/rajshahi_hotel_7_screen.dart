@@ -6,15 +6,15 @@ import 'package:travel_guide/ui/widgets/app_bar_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 
-class DhakaRagency extends StatefulWidget {
+class RajshahiHotel7Screen extends StatefulWidget {
 
-  const DhakaRagency({super.key});
+  const RajshahiHotel7Screen({super.key});
 
   @override
-  State<DhakaRagency> createState() => _DhakaRagencyState();
+  State<RajshahiHotel7Screen> createState() => _RajshahiHotel7ScreenState();
 }
 
-class _DhakaRagencyState extends State<DhakaRagency> {
+class _RajshahiHotel7ScreenState extends State<RajshahiHotel7Screen> {
 
   Uri dialNumber = Uri(scheme: 'tel',path: '12345678901');
   final Uri _url = Uri.parse('https://goo.gl/maps/95YYF4NtCPvEmdKS9');
