@@ -1,5 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:travel_guide/ui/screens/hotels/barishal_hotals/barishal_hotel_10_screen.dart';
 import 'package:travel_guide/ui/screens/hotels/barishal_hotals/barishal_hotel_1_screen.dart';
+import 'package:travel_guide/ui/screens/hotels/barishal_hotals/barishal_hotel_2_screen.dart';
+import 'package:travel_guide/ui/screens/hotels/barishal_hotals/barishal_hotel_3_screen.dart';
+import 'package:travel_guide/ui/screens/hotels/barishal_hotals/barishal_hotel_4_screen.dart';
+import 'package:travel_guide/ui/screens/hotels/barishal_hotals/barishal_hotel_5_screen.dart';
+import 'package:travel_guide/ui/screens/hotels/barishal_hotals/barishal_hotel_6_screen.dart';
+import 'package:travel_guide/ui/screens/hotels/barishal_hotals/barishal_hotel_7_screen.dart';
+import 'package:travel_guide/ui/screens/hotels/barishal_hotals/barishal_hotel_8_screen.dart';
+import 'package:travel_guide/ui/screens/hotels/barishal_hotals/barishal_hotel_9_screen.dart';
 import 'package:travel_guide/ui/screens/utils/asset_utils.dart';
 import 'package:travel_guide/ui/widgets/app_bar_widget.dart';
 
@@ -49,7 +58,7 @@ class BarishalHotelsScreen extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        //Navigator.push(context, MaterialPageRoute(builder: (context)=>SplashScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>BarishalHotel2Screen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -77,7 +86,7 @@ class BarishalHotelsScreen extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        //Navigator.push(context, MaterialPageRoute(builder: (context)=>SplashScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>BarishalHotel3Screen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -105,7 +114,7 @@ class BarishalHotelsScreen extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        //Navigator.push(context, MaterialPageRoute(builder: (context)=>SplashScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>BarishalHotel4Screen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -133,7 +142,7 @@ class BarishalHotelsScreen extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        //Navigator.push(context, MaterialPageRoute(builder: (context)=>SplashScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>BarishalHotel5Screen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -161,7 +170,7 @@ class BarishalHotelsScreen extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        //Navigator.push(context, MaterialPageRoute(builder: (context)=>SplashScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>BarishalHotel6Screen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -189,7 +198,7 @@ class BarishalHotelsScreen extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        //Navigator.push(context, MaterialPageRoute(builder: (context)=>SplashScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>BarishalHotel7Screen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -217,7 +226,7 @@ class BarishalHotelsScreen extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        //Navigator.push(context, MaterialPageRoute(builder: (context)=>SplashScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>BarishalHotel8Screen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -245,7 +254,7 @@ class BarishalHotelsScreen extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        //Navigator.push(context, MaterialPageRoute(builder: (context)=>SplashScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>BarishalHotel9Screen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -273,7 +282,7 @@ class BarishalHotelsScreen extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        //Navigator.push(context, MaterialPageRoute(builder: (context)=>SplashScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>BarishalHotel10Screen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,

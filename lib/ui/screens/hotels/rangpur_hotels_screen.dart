@@ -1,4 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:travel_guide/ui/screens/hotels/rangpur_hotals/rangpur_hotel_10_screen.dart';
+import 'package:travel_guide/ui/screens/hotels/rangpur_hotals/rangpur_hotel_1_screen.dart';
+import 'package:travel_guide/ui/screens/hotels/rangpur_hotals/rangpur_hotel_2_screen.dart';
+import 'package:travel_guide/ui/screens/hotels/rangpur_hotals/rangpur_hotel_3_screen.dart';
+import 'package:travel_guide/ui/screens/hotels/rangpur_hotals/rangpur_hotel_4_screen.dart';
+import 'package:travel_guide/ui/screens/hotels/rangpur_hotals/rangpur_hotel_5_screen.dart';
+import 'package:travel_guide/ui/screens/hotels/rangpur_hotals/rangpur_hotel_6_screen.dart';
+import 'package:travel_guide/ui/screens/hotels/rangpur_hotals/rangpur_hotel_7_screen.dart';
+import 'package:travel_guide/ui/screens/hotels/rangpur_hotals/rangpur_hotel_8_screen.dart';
+import 'package:travel_guide/ui/screens/hotels/rangpur_hotals/rangpur_hotel_9_screen.dart';
 import 'package:travel_guide/ui/screens/utils/asset_utils.dart';
 import 'package:travel_guide/ui/widgets/app_bar_widget.dart';
 
@@ -20,7 +30,7 @@ class RangpurHotelsScreen extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        //Navigator.push(context, MaterialPageRoute(builder: (context)=>const ));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>RangpurHotel1Screen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -48,7 +58,7 @@ class RangpurHotelsScreen extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        //Navigator.push(context, MaterialPageRoute(builder: (context)=>SplashScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>RangpurHotel2Screen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -76,7 +86,7 @@ class RangpurHotelsScreen extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        //Navigator.push(context, MaterialPageRoute(builder: (context)=>SplashScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>RangpurHotel3Screen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -104,7 +114,7 @@ class RangpurHotelsScreen extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        //Navigator.push(context, MaterialPageRoute(builder: (context)=>SplashScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>RangpurHotel4Screen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -132,7 +142,7 @@ class RangpurHotelsScreen extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        //Navigator.push(context, MaterialPageRoute(builder: (context)=>SplashScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>RangpurHotel5Screen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -160,7 +170,7 @@ class RangpurHotelsScreen extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        //Navigator.push(context, MaterialPageRoute(builder: (context)=>SplashScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>RangpurHotel6Screen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -188,7 +198,7 @@ class RangpurHotelsScreen extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        //Navigator.push(context, MaterialPageRoute(builder: (context)=>SplashScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>RangpurHotel7Screen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -216,7 +226,7 @@ class RangpurHotelsScreen extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        //Navigator.push(context, MaterialPageRoute(builder: (context)=>SplashScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>RangpurHotel8Screen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -244,7 +254,7 @@ class RangpurHotelsScreen extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        //Navigator.push(context, MaterialPageRoute(builder: (context)=>SplashScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>RangpurHotel9Screen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -272,7 +282,7 @@ class RangpurHotelsScreen extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        //Navigator.push(context, MaterialPageRoute(builder: (context)=>SplashScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>RangpurHotel10Screen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
