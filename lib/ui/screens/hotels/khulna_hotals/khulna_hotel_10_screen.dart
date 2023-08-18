@@ -54,7 +54,7 @@ class _khulnaHotel10ScreenState extends State<khulnaHotel10Screen> {
                             borderRadius: const BorderRadius.only(
                                 bottomLeft: Radius.circular(16),
                                 bottomRight: Radius.circular(16)),
-                            child: Image.asset(
+                            child:Image.network(
                               AssetsUtils.detailsPng,
                               fit: BoxFit.cover,
                             ),
@@ -63,7 +63,7 @@ class _khulnaHotel10ScreenState extends State<khulnaHotel10Screen> {
                             borderRadius: const BorderRadius.only(
                                 bottomLeft: Radius.circular(16),
                                 bottomRight: Radius.circular(16)),
-                            child: Image.asset(
+                            child:Image.network(
                               AssetsUtils.detailsPng,
                               fit: BoxFit.cover,
                             ),
@@ -72,7 +72,7 @@ class _khulnaHotel10ScreenState extends State<khulnaHotel10Screen> {
                             borderRadius: const BorderRadius.only(
                                 bottomLeft: Radius.circular(16),
                                 bottomRight: Radius.circular(10)),
-                            child: Image.asset(
+                            child:Image.network(
                               AssetsUtils.detailsPng,
                               fit: BoxFit.cover,
                             ),
@@ -81,7 +81,7 @@ class _khulnaHotel10ScreenState extends State<khulnaHotel10Screen> {
                             borderRadius: const BorderRadius.only(
                                 bottomLeft: Radius.circular(10),
                                 bottomRight: Radius.circular(16)),
-                            child: Image.asset(
+                            child:Image.network(
                               AssetsUtils.detailsPng,
                               fit: BoxFit.cover,
                             ),
@@ -90,7 +90,7 @@ class _khulnaHotel10ScreenState extends State<khulnaHotel10Screen> {
                             borderRadius: const BorderRadius.only(
                                 bottomLeft: Radius.circular(16),
                                 bottomRight: Radius.circular(16)),
-                            child: Image.asset(
+                            child:Image.network(
                               AssetsUtils.detailsPng,
                               fit: BoxFit.cover,
                             ),

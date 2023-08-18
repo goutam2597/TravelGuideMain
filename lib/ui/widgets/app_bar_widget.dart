@@ -17,7 +17,7 @@ class _OpAppBarState extends State<OpAppBar> {
       elevation: 0,
       centerTitle: true,
       backgroundColor: Color(0xffFFF9F9FF),
-      title: Image.asset(
+      title: Image.network(
         AssetsUtils.logoPng,
         width: 150,
       ),
