@@ -110,7 +110,7 @@ class _khulnaHotel10ScreenState extends State<khulnaHotel10Screen> {
                           ),
                           const SizedBox(height: 8),
                           const Text(
-                            "Barishal is the capital and largest city of Bangladesh. Located on the eastern banks of the Buriganga River, Dhaka is a vibrant and densely populated metropolis. It serves as the political, cultural, and economic hub of the country.",
+                            "Khulna is the capital and largest city of Bangladesh. Located on the eastern banks of the Buriganga River, Dhaka is a vibrant and densely populated metropolis. It serves as the political, cultural, and economic hub of the country.",
                             style: TextStyle(
                                 fontSize: 16, fontWeight: FontWeight.w400),
                           ),
