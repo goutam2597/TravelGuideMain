@@ -6,7 +6,6 @@ class TravelApp extends StatefulWidget {
   @override
   State<TravelApp> createState() => _TravelAppState();
 }
-
 class _TravelAppState extends State<TravelApp> {
   @override
   Widget build(BuildContext context) {
