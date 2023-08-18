@@ -3,7 +3,6 @@ import 'package:travel_guide/ui/screens/splash_screen.dart';
 
 class TravelApp extends StatefulWidget {
   const TravelApp({super.key});
-
   @override
   State<TravelApp> createState() => _TravelAppState();
 }
