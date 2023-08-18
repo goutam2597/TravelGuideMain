@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:travel_guide/ui/screens/hotels/barishal_hotals/barishal_hotel_1_screen.dart';
 import 'package:travel_guide/ui/screens/utils/asset_utils.dart';
 import 'package:travel_guide/ui/widgets/app_bar_widget.dart';
 
@@ -20,7 +21,7 @@ class BarishalHotelsScreen extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        //Navigator.push(context, MaterialPageRoute(builder: (context)=>const DhakaDetailsScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>const BarishalHotel1Screen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
