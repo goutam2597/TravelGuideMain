@@ -76,6 +76,8 @@ class _DhakaDetailsScreenState extends State<DhakaDetailsScreen> {
                           const SizedBox(height: 8),
                           const Text("Dhaka is the capital and largest city of Bangladesh. Located on the eastern banks of the Buriganga River, Dhaka is a vibrant and densely populated metropolis. It serves as the political, cultural, and economic hub of the country.",style: TextStyle(fontSize: 16,fontWeight: FontWeight.w400),),
                           const SizedBox(height: 16),
+                          ElevatedButton(onPressed: (){} , child: Text('click')),
+                          const SizedBox(height: 16),
                           Padding(
                             padding: const EdgeInsets.all(8),
                             child: Column(
@@ -99,11 +101,16 @@ class _DhakaDetailsScreenState extends State<DhakaDetailsScreen> {
                                     indicatorBackgroundColor: Colors.white60,
                                     isLoop: true,
                                     children: [
-                                      ClipRRect(
-                                        borderRadius: BorderRadius.circular(10),
-                                        child: Image.asset(
-                                          AssetsUtils.five100Png,
-                                          fit: BoxFit.cover,
+                                      GestureDetector(
+                                        onTap:(){
+
+                                        },
+                                        child: ClipRRect(
+                                          borderRadius: BorderRadius.circular(10),
+                                          child: Image.asset(
+                                            AssetsUtils.five100Png,
+                                            fit: BoxFit.cover,
+                                          ),
                                         ),
                                       ),
                                       ClipRRect(

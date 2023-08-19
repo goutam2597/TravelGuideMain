@@ -134,6 +134,7 @@ class _DhakaHotel1ScreenState extends State<DhakaHotel1Screen> {
                               ),
                             ),
                           ),
+                          SizedBox(height: 10),
                           SizedBox(
                             width: double.infinity,
                             child: ElevatedButton(

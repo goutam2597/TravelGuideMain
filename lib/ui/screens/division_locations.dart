@@ -80,7 +80,7 @@ class _DivisionLocationState extends State<DivisionLocation> {
                           ),
                           ClipRRect(
                             borderRadius: BorderRadius.circular(10.00),
-                            child: Image.asset(AssetsUtils.dhakaPng),
+                            child: Image.network(AssetsUtils.dhakaNet),
                           ),
                         ],
                       ),
