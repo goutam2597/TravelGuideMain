@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_image_slideshow/flutter_image_slideshow.dart';
-import 'package:travel_guide/ui/screens/places/rangpur/rangpur_place_screen.dart';
+import 'package:travel_guide/ui/screens/places/rangpur_places/rangpur_place_screen.dart';
 import 'package:travel_guide/ui/screens/utils/asset_utils.dart';
 import 'package:travel_guide/ui/widgets/app_bar_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
