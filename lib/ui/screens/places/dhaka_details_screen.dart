@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_image_slideshow/flutter_image_slideshow.dart';
 import 'package:travel_guide/ui/screens/utils/asset_utils.dart';
 import 'package:travel_guide/ui/widgets/app_bar_widget.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class DhakaDetailsScreen extends StatefulWidget {
   const DhakaDetailsScreen({super.key});
@@ -12,11 +13,21 @@ class DhakaDetailsScreen extends StatefulWidget {
 
 class _DhakaDetailsScreenState extends State<DhakaDetailsScreen> {
 
+  final Uri _url = Uri.parse('https://goo.gl/maps/hcJBCx7BiufC6thW6');
+
+  Future<void> _launchUrl() async {
+    if (!await launchUrl(_url)) {
+      throw Exception('Could not launch $_url');
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
+      floatingActionButton: FloatingActionButton(
+        onPressed: _launchUrl,
+        child: const Icon(Icons.location_on_outlined,size: 30,),
+      ),
       body: SafeArea(
         child: Column(
           children: [

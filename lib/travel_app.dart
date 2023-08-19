@@ -35,6 +35,8 @@ class _TravelAppState extends State<TravelApp> {
             ),
           ),
         ),
+        floatingActionButtonTheme: const FloatingActionButtonThemeData(
+          backgroundColor: Colors.black87),
       ),
       home: const SplashScreen(),
     );
