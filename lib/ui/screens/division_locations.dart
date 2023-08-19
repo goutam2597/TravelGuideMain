@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:travel_guide/ui/screens/places/borishal_details_screen.dart';
 import 'package:travel_guide/ui/screens/places/chattogeam_details_screen.dart';
 import 'package:travel_guide/ui/screens/places/dhaka_details_screen.dart';
@@ -62,7 +63,7 @@ class _DivisionLocationState extends State<DivisionLocation> {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        Navigator.push(context, MaterialPageRoute(builder: (context)=>const BarishalDetailsScreen()));
+                        Get.to(const BarishalDetailsScreen());// GetX Navigator
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
