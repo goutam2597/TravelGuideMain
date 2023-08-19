@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_image_slideshow/flutter_image_slideshow.dart';
+import 'package:travel_guide/ui/screens/places/dhaka/dhaka_place_screen.dart';
 import 'package:travel_guide/ui/screens/utils/asset_utils.dart';
 import 'package:travel_guide/ui/widgets/app_bar_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -87,7 +88,10 @@ class _DhakaDetailsScreenState extends State<DhakaDetailsScreen> {
                           const SizedBox(height: 8),
                           const Text("Dhaka is the capital and largest city of Bangladesh. Located on the eastern banks of the Buriganga River, Dhaka is a vibrant and densely populated metropolis. It serves as the political, cultural, and economic hub of the country.",style: TextStyle(fontSize: 16,fontWeight: FontWeight.w400),),
                           const SizedBox(height: 16),
-                          ElevatedButton(onPressed: (){} , child: Text('click')),
+                          ElevatedButton(onPressed: (){
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>DhakaPlacesScreen()));
+                          },
+                              child: Text('click')),
                           const SizedBox(height: 16),
                           Padding(
                             padding: const EdgeInsets.all(8),
