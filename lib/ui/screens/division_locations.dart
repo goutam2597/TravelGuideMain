@@ -62,7 +62,7 @@ class _DivisionLocationState extends State<DivisionLocation> {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        Navigator.push(context, MaterialPageRoute(builder: (context)=>BarishalDetailsScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>const BarishalDetailsScreen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -90,7 +90,7 @@ class _DivisionLocationState extends State<DivisionLocation> {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        Navigator.push(context, MaterialPageRoute(builder: (context)=>SylhetDetailsScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>const SylhetDetailsScreen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -108,7 +108,7 @@ class _DivisionLocationState extends State<DivisionLocation> {
                           ),
                           ClipRRect(
                             borderRadius: BorderRadius.circular(10.00),
-                            child: Image.asset(AssetsUtils.dhakaPng),
+                            child: Image.network(AssetsUtils.sylhetPng,height: 200,width:double.infinity,fit: BoxFit.cover,),
                           ),
                         ],
                       ),
@@ -118,7 +118,7 @@ class _DivisionLocationState extends State<DivisionLocation> {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        Navigator.push(context, MaterialPageRoute(builder: (context)=>ChattoheanDetailsScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>const ChattoheanDetailsScreen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -146,7 +146,7 @@ class _DivisionLocationState extends State<DivisionLocation> {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        Navigator.push(context, MaterialPageRoute(builder: (context)=>KhulnaDetailsScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>const KhulnaDetailsScreen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -174,7 +174,7 @@ class _DivisionLocationState extends State<DivisionLocation> {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        Navigator.push(context, MaterialPageRoute(builder: (context)=>MymennsingDetailsScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>const MymennsingDetailsScreen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -202,7 +202,7 @@ class _DivisionLocationState extends State<DivisionLocation> {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        Navigator.push(context, MaterialPageRoute(builder: (context)=>RajshahiDetailsScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>const RajshahiDetailsScreen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -230,7 +230,7 @@ class _DivisionLocationState extends State<DivisionLocation> {
                     padding: const EdgeInsets.only(left: 24,right: 24,top: 24),
                     child: GestureDetector(
                       onTap: (){
-                        Navigator.push(context, MaterialPageRoute(builder: (context)=>RangpurDetailsScreen()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>const RangpurDetailsScreen()));
                       },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
