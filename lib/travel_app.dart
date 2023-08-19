@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:travel_guide/ui/screens/splash_screen.dart';
 
 class TravelApp extends StatefulWidget {
@@ -9,7 +10,7 @@ class TravelApp extends StatefulWidget {
 class _TravelAppState extends State<TravelApp> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       theme: ThemeData(
         scaffoldBackgroundColor: const Color(0xFFfff9f9ff),
         inputDecorationTheme: const InputDecorationTheme(
