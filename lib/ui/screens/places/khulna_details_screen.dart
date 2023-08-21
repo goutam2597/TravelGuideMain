@@ -13,6 +13,7 @@ class KhulnaDetailsScreen extends StatefulWidget {
 }
 
 class _KhulnaDetailsScreen extends State<KhulnaDetailsScreen> {
+
   final Uri _url = Uri.parse('https://goo.gl/maps/hcJBCx7BiufC6thW6');
 
   Future<void> _launchUrl() async {
@@ -43,41 +44,42 @@ class _KhulnaDetailsScreen extends State<KhulnaDetailsScreen> {
                         width: double.infinity,
                         height: 250,
                         initialPage: 0,
-                        indicatorColor: Colors.black,
+                        indicatorColor: Colors.lightBlue,
                         indicatorRadius: 5,
-                        indicatorBackgroundColor: Colors.white,
+                        indicatorBackgroundColor: Colors.white60,
                         isLoop: true,
                         children: [
                           ClipRRect(
-                            borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(16),bottomRight: Radius.circular(16)),
+                            borderRadius: const BorderRadius.only(
+                                bottomLeft: Radius.circular(16),
+                                bottomRight: Radius.circular(16)),
                             child: Image.asset(
                               AssetsUtils.detailsPng,
                               fit: BoxFit.cover,
                             ),
                           ),
                           ClipRRect(
-                            borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(16),bottomRight: Radius.circular(16)),
+                            borderRadius: const BorderRadius.only(
+                                bottomLeft: Radius.circular(16),
+                                bottomRight: Radius.circular(16)),
                             child: Image.asset(
                               AssetsUtils.detailsPng,
                               fit: BoxFit.cover,
                             ),
                           ),
                           ClipRRect(
-                            borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(16),bottomRight: Radius.circular(10)),
+                            borderRadius: const BorderRadius.only(
+                                bottomLeft: Radius.circular(16),
+                                bottomRight: Radius.circular(16)),
                             child: Image.asset(
                               AssetsUtils.detailsPng,
                               fit: BoxFit.cover,
                             ),
                           ),
                           ClipRRect(
-                            borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(10),bottomRight: Radius.circular(16)),
-                            child: Image.asset(
-                              AssetsUtils.detailsPng,
-                              fit: BoxFit.cover,
-                            ),
-                          ),
-                          ClipRRect(
-                            borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(16),bottomRight: Radius.circular(16)),
+                            borderRadius: const BorderRadius.only(
+                                bottomLeft: Radius.circular(16),
+                                bottomRight: Radius.circular(16)),
                             child: Image.asset(
                               AssetsUtils.detailsPng,
                               fit: BoxFit.cover,
@@ -118,9 +120,9 @@ class _KhulnaDetailsScreen extends State<KhulnaDetailsScreen> {
                                     width: double.infinity,
                                     height: 160,
                                     initialPage: 0,
-                                    indicatorColor: Colors.black,
+                                    indicatorColor: Colors.lightBlue,
                                     indicatorRadius: 5,
-                                    indicatorBackgroundColor: Colors.white,
+                                    indicatorBackgroundColor: Colors.white60,
                                     isLoop: true,
                                     children: [
                                       ClipRRect(

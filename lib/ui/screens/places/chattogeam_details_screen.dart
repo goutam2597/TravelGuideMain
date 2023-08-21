@@ -44,41 +44,42 @@ class _ChattoheanDetailsScreen extends State<ChattoheanDetailsScreen> {
                         width: double.infinity,
                         height: 250,
                         initialPage: 0,
-                        indicatorColor: Colors.black,
+                        indicatorColor: Colors.lightBlue,
                         indicatorRadius: 5,
-                        indicatorBackgroundColor: Colors.white,
+                        indicatorBackgroundColor: Colors.white60,
                         isLoop: true,
                         children: [
                           ClipRRect(
-                            borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(16),bottomRight: Radius.circular(16)),
+                            borderRadius: const BorderRadius.only(
+                                bottomLeft: Radius.circular(16),
+                                bottomRight: Radius.circular(16)),
                             child: Image.asset(
                               AssetsUtils.detailsPng,
                               fit: BoxFit.cover,
                             ),
                           ),
                           ClipRRect(
-                            borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(16),bottomRight: Radius.circular(16)),
+                            borderRadius: const BorderRadius.only(
+                                bottomLeft: Radius.circular(16),
+                                bottomRight: Radius.circular(16)),
                             child: Image.asset(
                               AssetsUtils.detailsPng,
                               fit: BoxFit.cover,
                             ),
                           ),
                           ClipRRect(
-                            borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(16),bottomRight: Radius.circular(10)),
+                            borderRadius: const BorderRadius.only(
+                                bottomLeft: Radius.circular(16),
+                                bottomRight: Radius.circular(16)),
                             child: Image.asset(
                               AssetsUtils.detailsPng,
                               fit: BoxFit.cover,
                             ),
                           ),
                           ClipRRect(
-                            borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(10),bottomRight: Radius.circular(16)),
-                            child: Image.asset(
-                              AssetsUtils.detailsPng,
-                              fit: BoxFit.cover,
-                            ),
-                          ),
-                          ClipRRect(
-                            borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(16),bottomRight: Radius.circular(16)),
+                            borderRadius: const BorderRadius.only(
+                                bottomLeft: Radius.circular(16),
+                                bottomRight: Radius.circular(16)),
                             child: Image.asset(
                               AssetsUtils.detailsPng,
                               fit: BoxFit.cover,
@@ -119,44 +120,69 @@ class _ChattoheanDetailsScreen extends State<ChattoheanDetailsScreen> {
                                     width: double.infinity,
                                     height: 160,
                                     initialPage: 0,
-                                    indicatorColor: Colors.black,
+                                    indicatorColor: Colors.lightBlue,
                                     indicatorRadius: 5,
-                                    indicatorBackgroundColor: Colors.white,
+                                    indicatorBackgroundColor: Colors.white60,
                                     isLoop: true,
                                     children: [
-                                      ClipRRect(
-                                        borderRadius: BorderRadius.circular(10),
-                                        child: Image.asset(
-                                          AssetsUtils.five100Png,
-                                          fit: BoxFit.cover,
+                                      GestureDetector(
+                                        onTap: (){
+                                          //Navigator.push(context, MaterialPageRoute(builder: (context)=>));
+                                        },
+                                        child: ClipRRect(
+                                          borderRadius: BorderRadius.circular(10),
+                                          child: Image.asset(
+                                            AssetsUtils.five100Png,
+                                            fit: BoxFit.cover,
+                                          ),
                                         ),
                                       ),
-                                      ClipRRect(
-                                        borderRadius: BorderRadius.circular(10),
-                                        child: Image.asset(
-                                          AssetsUtils.five100Png,
-                                          fit: BoxFit.cover,
+                                      GestureDetector(
+                                        onTap: (){
+                                          //Navigator.push(context, MaterialPageRoute(builder: (context)=>));
+                                        },
+                                        child: ClipRRect(
+                                          borderRadius: BorderRadius.circular(10),
+                                          child: Image.asset(
+                                            AssetsUtils.five100Png,
+                                            fit: BoxFit.cover,
+                                          ),
                                         ),
                                       ),
-                                      ClipRRect(
-                                        borderRadius: BorderRadius.circular(10),
-                                        child: Image.asset(
-                                          AssetsUtils.five100Png,
-                                          fit: BoxFit.cover,
+                                      GestureDetector(
+                                        onTap: (){
+                                          //Navigator.push(context, MaterialPageRoute(builder: (context)=>));
+                                        },
+                                        child: ClipRRect(
+                                          borderRadius: BorderRadius.circular(10),
+                                          child: Image.asset(
+                                            AssetsUtils.five100Png,
+                                            fit: BoxFit.cover,
+                                          ),
                                         ),
                                       ),
-                                      ClipRRect(
-                                        borderRadius: BorderRadius.circular(10),
-                                        child: Image.asset(
-                                          AssetsUtils.five100Png,
-                                          fit: BoxFit.cover,
+                                      GestureDetector(
+                                        onTap: (){
+                                          //Navigator.push(context, MaterialPageRoute(builder: (context)=>));
+                                        },
+                                        child: ClipRRect(
+                                          borderRadius: BorderRadius.circular(10),
+                                          child: Image.asset(
+                                            AssetsUtils.five100Png,
+                                            fit: BoxFit.cover,
+                                          ),
                                         ),
                                       ),
-                                      ClipRRect(
-                                        borderRadius: BorderRadius.circular(10),
-                                        child: Image.asset(
-                                          AssetsUtils.five100Png,
-                                          fit: BoxFit.cover,
+                                      GestureDetector(
+                                        onTap: (){
+                                          //Navigator.push(context, MaterialPageRoute(builder: (context)=>));
+                                        },
+                                        child: ClipRRect(
+                                          borderRadius: BorderRadius.circular(10),
+                                          child: Image.asset(
+                                            AssetsUtils.five100Png,
+                                            fit: BoxFit.cover,
+                                          ),
                                         ),
                                       ),
                                     ],

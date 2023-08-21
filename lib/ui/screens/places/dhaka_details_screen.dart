@@ -22,6 +22,7 @@ class _DhakaDetailsScreenState extends State<DhakaDetailsScreen> {
     }
   }
 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -49,28 +50,36 @@ class _DhakaDetailsScreenState extends State<DhakaDetailsScreen> {
                         isLoop: true,
                         children: [
                           ClipRRect(
-                            borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(16),bottomRight: Radius.circular(16)),
+                            borderRadius: const BorderRadius.only(
+                                bottomLeft: Radius.circular(16),
+                                bottomRight: Radius.circular(16)),
                             child: Image.asset(
                               AssetsUtils.detailsPng,
                               fit: BoxFit.cover,
                             ),
                           ),
                           ClipRRect(
-                            borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(16),bottomRight: Radius.circular(16)),
+                            borderRadius: const BorderRadius.only(
+                                bottomLeft: Radius.circular(16),
+                                bottomRight: Radius.circular(16)),
                             child: Image.asset(
                               AssetsUtils.detailsPng,
                               fit: BoxFit.cover,
                             ),
                           ),
                           ClipRRect(
-                            borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(16),bottomRight: Radius.circular(10)),
+                            borderRadius: const BorderRadius.only(
+                                bottomLeft: Radius.circular(16),
+                                bottomRight: Radius.circular(16)),
                             child: Image.asset(
                               AssetsUtils.detailsPng,
                               fit: BoxFit.cover,
                             ),
                           ),
                           ClipRRect(
-                            borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(10),bottomRight: Radius.circular(16)),
+                            borderRadius: const BorderRadius.only(
+                                bottomLeft: Radius.circular(16),
+                                bottomRight: Radius.circular(16)),
                             child: Image.asset(
                               AssetsUtils.detailsPng,
                               fit: BoxFit.cover,
@@ -117,8 +126,8 @@ class _DhakaDetailsScreenState extends State<DhakaDetailsScreen> {
                                     isLoop: true,
                                     children: [
                                       GestureDetector(
-                                        onTap:(){
-
+                                        onTap: (){
+                                          //Navigator.push(context, MaterialPageRoute(builder: (context)=>));
                                         },
                                         child: ClipRRect(
                                           borderRadius: BorderRadius.circular(10),
@@ -128,32 +137,52 @@ class _DhakaDetailsScreenState extends State<DhakaDetailsScreen> {
                                           ),
                                         ),
                                       ),
-                                      ClipRRect(
-                                        borderRadius: BorderRadius.circular(10),
-                                        child: Image.asset(
-                                          AssetsUtils.five100Png,
-                                          fit: BoxFit.cover,
+                                      GestureDetector(
+                                        onTap: (){
+                                          //Navigator.push(context, MaterialPageRoute(builder: (context)=>));
+                                        },
+                                        child: ClipRRect(
+                                          borderRadius: BorderRadius.circular(10),
+                                          child: Image.asset(
+                                            AssetsUtils.five100Png,
+                                            fit: BoxFit.cover,
+                                          ),
                                         ),
                                       ),
-                                      ClipRRect(
-                                        borderRadius: BorderRadius.circular(10),
-                                        child: Image.asset(
-                                          AssetsUtils.five100Png,
-                                          fit: BoxFit.cover,
+                                      GestureDetector(
+                                        onTap: (){
+                                          //Navigator.push(context, MaterialPageRoute(builder: (context)=>));
+                                        },
+                                        child: ClipRRect(
+                                          borderRadius: BorderRadius.circular(10),
+                                          child: Image.asset(
+                                            AssetsUtils.five100Png,
+                                            fit: BoxFit.cover,
+                                          ),
                                         ),
                                       ),
-                                      ClipRRect(
-                                        borderRadius: BorderRadius.circular(10),
-                                        child: Image.asset(
-                                          AssetsUtils.five100Png,
-                                          fit: BoxFit.cover,
+                                      GestureDetector(
+                                        onTap: (){
+                                          //Navigator.push(context, MaterialPageRoute(builder: (context)=>));
+                                        },
+                                        child: ClipRRect(
+                                          borderRadius: BorderRadius.circular(10),
+                                          child: Image.asset(
+                                            AssetsUtils.five100Png,
+                                            fit: BoxFit.cover,
+                                          ),
                                         ),
                                       ),
-                                      ClipRRect(
-                                        borderRadius: BorderRadius.circular(10),
-                                        child: Image.asset(
-                                          AssetsUtils.five100Png,
-                                          fit: BoxFit.cover,
+                                      GestureDetector(
+                                        onTap: (){
+                                          //Navigator.push(context, MaterialPageRoute(builder: (context)=>));
+                                        },
+                                        child: ClipRRect(
+                                          borderRadius: BorderRadius.circular(10),
+                                          child: Image.asset(
+                                            AssetsUtils.five100Png,
+                                            fit: BoxFit.cover,
+                                          ),
                                         ),
                                       ),
                                     ],
