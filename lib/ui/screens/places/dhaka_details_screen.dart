@@ -98,9 +98,9 @@ class _DhakaDetailsScreenState extends State<DhakaDetailsScreen> {
                           const Text("Dhaka is the capital and largest city of Bangladesh. Located on the eastern banks of the Buriganga River, Dhaka is a vibrant and densely populated metropolis. It serves as the political, cultural, and economic hub of the country.",style: TextStyle(fontSize: 16,fontWeight: FontWeight.w400),),
                           const SizedBox(height: 16),
                           ElevatedButton(onPressed: (){
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>DhakaPlacesScreen()));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>const DhakaPlacesScreen()));
                           },
-                              child: Text('click')),
+                              child: const Text('click')),
                           const SizedBox(height: 16),
                           Padding(
                             padding: const EdgeInsets.all(8),
