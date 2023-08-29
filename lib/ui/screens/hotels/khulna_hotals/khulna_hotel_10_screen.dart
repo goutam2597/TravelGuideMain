@@ -32,12 +32,12 @@ class _khulnaHotel10ScreenState extends State<khulnaHotel10Screen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        iconTheme: IconThemeData(
+        iconTheme: const IconThemeData(
           color: Colors.black,
         ),
         elevation: 0,
         centerTitle: true,
-        backgroundColor: Color(0xffFFF9F9FF),
+        backgroundColor: const Color(0xffFFF9F9FF),
         title: Image.network(
           AssetsUtils.logoPng,
           width: 150,
@@ -56,8 +56,8 @@ class _khulnaHotel10ScreenState extends State<khulnaHotel10Screen> {
         backgroundColor: Colors.white,
         child: ListView(
           children: [
-            const DrawerHeader(
-              decoration: BoxDecoration(
+            DrawerHeader(
+              decoration: const BoxDecoration(
                 color: Colors.black,
               ),
               child:Column(
@@ -65,7 +65,10 @@ class _khulnaHotel10ScreenState extends State<khulnaHotel10Screen> {
                 mainAxisAlignment: MainAxisAlignment.center
                 ,
                 children: [
-                  Text(
+                  CircleAvatar(
+                    child: Image.network("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Circle-icons-profile.svg/2048px-Circle-icons-profile.svg.png"),
+                   ),
+                  const Text(
                     'Welcome',
                     style: TextStyle(
                       color: Colors.white,
@@ -84,6 +87,12 @@ class _khulnaHotel10ScreenState extends State<khulnaHotel10Screen> {
             ListTile(
               title: const Text('Dashboard',style: TextStyle(color: Colors.black),),
               leading: const Icon(Icons.dashboard,color: Colors.black,),
+              onTap: () {
+              },
+            ),
+            ListTile(
+              title: const Text('Settings',style: TextStyle(color: Colors.black),),
+              leading: const Icon(Icons.settings,color: Colors.black,),
               onTap: () {
               },
             ),
