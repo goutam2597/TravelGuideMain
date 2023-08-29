@@ -8,23 +8,84 @@ import 'package:travel_guide/ui/screens/places/rajshahi_details_screen.dart';
 import 'package:travel_guide/ui/screens/places/rangpur_details_screen.dart';
 import 'package:travel_guide/ui/screens/places/sylhet_details_screen.dart';
 import 'package:travel_guide/ui/screens/utils/asset_utils.dart';
-import 'package:travel_guide/ui/widgets/app_bar_widget.dart';
 
 class DivisionLocation extends StatefulWidget {
   const DivisionLocation({super.key});
-
   @override
   State<DivisionLocation> createState() => _DivisionLocationState();
 }
-
 class _DivisionLocationState extends State<DivisionLocation> {
-  bool isPressed = false;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        iconTheme: IconThemeData(
+          color: Colors.black,
+        ),
+        elevation: 0,
+        centerTitle: true,
+        backgroundColor: Color(0xffFFF9F9FF),
+        title: Image.network(
+          AssetsUtils.logoPng,
+          width: 150,
+        ),
+        actions: [
+          IconButton(
+              onPressed: () {},
+              icon: const Icon(
+                Icons.search,
+                color: Colors.black,
+                size: 30,
+              ))
+        ],
+      ),
+      drawer: Drawer(
+        backgroundColor: Colors.white,
+        child: ListView(
+          children: [
+            const DrawerHeader(
+              decoration: BoxDecoration(
+                color: Colors.black,
+              ),
+              child:Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.center
+                ,
+                children: [
+                  Text(
+                    'Welcome',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 24.0,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            ListTile(
+              title: const Text('Home',style: TextStyle(color: Colors.black),),
+              leading: const Icon(Icons.home,color: Colors.black,),
+              onTap: () {
+              },
+            ),
+            ListTile(
+              title: const Text('Dashboard',style: TextStyle(color: Colors.black),),
+              leading: const Icon(Icons.dashboard,color: Colors.black,),
+              onTap: () {
+              },
+            ),
+            ListTile(
+              title: const Text('Settings',style: TextStyle(color: Colors.black),),
+              leading: const Icon(Icons.settings,color: Colors.black,),
+              onTap: () {
+              },
+            ),
+          ],
+        ),
+      ),
+
       body: Column(
         children: [
-          const OpAppBar(),
           Expanded(
             child: SingleChildScrollView(
               child: Column(

@@ -31,10 +31,75 @@ class _khulnaHotel10ScreenState extends State<khulnaHotel10Screen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        iconTheme: IconThemeData(
+          color: Colors.black,
+        ),
+        elevation: 0,
+        centerTitle: true,
+        backgroundColor: Color(0xffFFF9F9FF),
+        title: Image.network(
+          AssetsUtils.logoPng,
+          width: 150,
+        ),
+        actions: [
+          IconButton(
+              onPressed: () {},
+              icon: const Icon(
+                Icons.search,
+                color: Colors.black,
+                size: 30,
+              ))
+        ],
+      ),
+      drawer: Drawer(
+        backgroundColor: Colors.white,
+        child: ListView(
+          children: [
+            const DrawerHeader(
+              decoration: BoxDecoration(
+                color: Colors.black,
+              ),
+              child:Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.center
+                ,
+                children: [
+                  Text(
+                    'Welcome',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 24.0,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            ListTile(
+              title: const Text('Home',style: TextStyle(color: Colors.black),),
+              leading: const Icon(Icons.home,color: Colors.black,),
+              onTap: () {
+              },
+            ),
+            ListTile(
+              title: const Text('Dashboard',style: TextStyle(color: Colors.black),),
+              leading: const Icon(Icons.dashboard,color: Colors.black,),
+              onTap: () {
+              },
+            ),
+            ListTile(
+              title: const Text('Settings',style: TextStyle(color: Colors.black),),
+              leading: const Icon(Icons.settings,color: Colors.black,),
+              onTap: () {
+              },
+            ),
+          ],
+        ),
+      ),
       body: SafeArea(
         child: Column(
           children: [
-            const OpAppBar(),
+            // const OpAppBar(),
             Expanded(
               child: SingleChildScrollView(
                 child: Column(
